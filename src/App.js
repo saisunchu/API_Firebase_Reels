@@ -13,6 +13,7 @@ const client = new ApolloClient({
 
 const App = () =>
 {
+  //App.js
   return(
     <QueryClientProvider client={queryClient}>
       <ApolloProvider client={client}>
