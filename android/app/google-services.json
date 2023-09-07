@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "357602768667",
+    "project_id": "fir-demo-20a74",
+    "storage_bucket": "fir-demo-20a74.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357602768667:android:49c210647ed46b5902c5be",
+        "android_client_info": {
+          "package_name": "com.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357602768667-5305phvjbv4na0j0fgo3o3fj3vek2fm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY3kCjbS3SBCsJyn7pgO8MOWNmgEYCPs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357602768667-5305phvjbv4na0j0fgo3o3fj3vek2fm5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "357602768667-0hjpsr3iuiai2lgtejulcp5a3dag40qe.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.demo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
