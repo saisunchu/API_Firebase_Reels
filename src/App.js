@@ -14,6 +14,7 @@ const client = new ApolloClient({
 const App = () =>
 {
   //App.js
+  //Temp Branch Brother
   return(
     <QueryClientProvider client={queryClient}>
       <ApolloProvider client={client}>
