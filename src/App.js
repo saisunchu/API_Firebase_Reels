@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation/Navigation";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import { QueryClient, QueryClientProvider } from 'react-query';
+import APIDemo from "./screens/APIDemo";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ const App = () =>
   return(
     <QueryClientProvider client={queryClient}>
       <ApolloProvider client={client}>
-        <Navigation />
+        <APIDemo />
       </ApolloProvider>
     </QueryClientProvider>
   )
