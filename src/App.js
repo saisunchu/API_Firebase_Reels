@@ -19,9 +19,9 @@ const App = () =>
   //temp + main branch
   return(
     <QueryClientProvider client={queryClient}>
-      <ApolloProvider client={client}>
+      {/* <ApolloProvider client={client}> */}
         <APIDemo />
-      </ApolloProvider>
+      {/* </ApolloProvider> */}
     </QueryClientProvider>
   )
 }
